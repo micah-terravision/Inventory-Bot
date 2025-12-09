@@ -1,0 +1,14 @@
+{
+     "name": "notion-slack-inventory-bot",
+     "version": "1.0.0",
+     "description": "Slack bot to query Notion inventory",
+     "main": "index.js",
+     "scripts": {
+       "start": "node index.js"
+     },
+     "dependencies": {
+       "@slack/bolt": "^3.17.0",
+       "@notionhq/client": "^2.2.14",
+       "dotenv": "^16.3.1"
+     }
+   }
